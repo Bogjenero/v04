@@ -4,8 +4,6 @@
 #include <string>
 namespace vsite::oop::v4
 {
-	std::string animal::species() { return "";};
-	unsigned int animal::legs() { return 0; };
 	unsigned int  insect::legs() { return 6; };
 	std::string cockroach::species()
 		{
@@ -34,10 +32,8 @@ namespace vsite::oop::v4
 		{
 		case 1:
 			return std::make_unique<cockroach>();
-			break;
 		case 2:
 			return std::make_unique<sparrow>();
-			break;
 		case 3:
 			return std::make_unique<tarantula>();
 		default:

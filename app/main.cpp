@@ -11,7 +11,7 @@ int main()
 	{
 		std::cout << "Unesite broj: ";
 		std::cin >> broj;
-		if (broj == 0)
+		if (broj <= 0 || broj > 3)
 			break;
 		else
 		{
