@@ -51,4 +51,4 @@ namespace vsite::oop::v4
 	{
 		return brojac;
 	}
-}
+} 
